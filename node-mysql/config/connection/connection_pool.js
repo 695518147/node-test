@@ -7,8 +7,10 @@ const connection = new Sequelize(config.database, config.username, config.passwo
     dialectOptions: {
         socketPath: '/tmp/mysql.sock' // 指定套接字文件路径
     },
-// 是否自动进行下划线转换（这里是因为DB默认的命名规则是下划线方式，而我们使用的大多数是驼峰方式）
-    underscored: true,
+    define: {
+        // 字段以下划线（_）来分割（默认是驼峰命名风格）
+        underscored: true
+    },
     pool: {
         max: 5,                             // 最大值
         min: 0,                          // 最小值
