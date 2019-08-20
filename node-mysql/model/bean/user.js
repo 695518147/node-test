@@ -62,6 +62,7 @@ module.exports = (() => {
     //检查此模块是否是主模块(单独运行该文件才会运行。)
     if (require.main === module) {
         let User = module.exports;
+        let Op = Sequelize.Op;
 
         await User.sync(false);
 
@@ -172,50 +173,46 @@ module.exports = (() => {
                     '$in': [11, 12],           // id IN (1, 2)
                     '$notIn': [3, 4]         // id NOT IN (3, 4)
                 },
-                // 'nick': {
-                //     // '$like': '%a%',          // nick LIKE '%a%'
-                //     // '$notLike': '%1'         // nick NOT LIKE '%a'
-                // },
-                // 'updated_at': {
-                //     '$eq': null,             // updated_at IS NULL
-                //     '$ne': null              // created_at IS NOT NULL
-                // }
+                'nick': {
+                    [Op.like]: '%a%',          // nick LIKE '%a%'
+                    [Op.notLike]: '%1'         // nick NOT LIKE '%a'
+                }
             }
         });
         console.log("操作符 ", users);
 
         //AND条件
-        // var users = await User.findAll({
-        //     'where': {
-        //         '$and': [
-        //             {'id': [11, 12]},
-        //             {'nick': "小明"}
-        //         ]
-        //     }
-        // });
-        // console.log("AND条件", users);
+        var users = await User.findAll({
+            where: {
+                [Op.and]: [
+                    {'id': [11, 12]},
+                    {'nick': "小明"}
+                ]
+            }
+        });
+        console.log("AND条件", users);
 
-        // //OR条件
-        // var users = await User.findAll({
-        //     'where': {
-        //         '$or': [
-        //             {id: [11, 12]},
-        //             {nick: null}
-        //         ]
-        //     }
-        // });
-        // console.log(users);
+        //OR条件
+        var users = await User.findAll({
+            where: {
+                [Op.or]: [
+                    {id: [11, 12]},
+                    {nick: null}
+                ]
+            }
+        });
+        console.log(users);
 
-        // //NOT条件
-        // var users = await User.findAll({
-        //     'where': {
-        //         '$not': [
-        //             {'id': [11, 12]},
-        //             {'nick': null}
-        //         ]
-        //     }
-        // });
-        // console.log(users);
+        //NOT条件
+        var users = await User.findAll({
+            where: {
+                [Op.not]: [
+                    {'id': [11, 12]},
+                    {'nick': null}
+                ]
+            }
+        });
+        console.log(users);
 
         /**
          * 批量操作
@@ -250,7 +247,7 @@ module.exports = (() => {
         var affectedRows = await User.destroy({
             'where': {'id': [2, 3, 4]}
         });
-        console.log(affectedRows)
+        console.log(affectedRows);
 
         /**
          * 关系
