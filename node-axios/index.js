@@ -10,7 +10,10 @@ var xburl = 'http://120.78.205.51:7070/xiaobing/orderTypes';
 
         let ordertypes = await axios.get(xburl);
 
-        console.log(ordertypes)
+        JSON.parse(ordertypes).data.for(ordertype=>{
+            console.log(ordertype)
+        })
+
     }
 })()
 
