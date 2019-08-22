@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Language" content="zh-CN">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="referrer" content="always"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <title>OSCHINA - 中文开源技术交流社区</title>
+    <meta name="keywords" content="开源,OSC,开源软件,开源硬件,开源网站,开源社区,java开源,perl开源,python开源,ruby开源,php开源,开源项目,开源代码"/>
+    <meta name="description" content="OSCHINA.NET 是目前领先的中文开源技术社区。我们传播开源的理念，推广开源项目，为 IT 开发者提供了一个发现、使用、并交流开源技术的平台"/>
+    <link rel="stylesheet" type="text/css" href="https://static.oschina.net/new-osc/js/utils/semantic-ui/semantic.min.css?t=1542621653000"/>
+    <link type="text/css" rel="stylesheet" href="https://static.oschina.net/new-osc/dist/css/web.0e1aaf9e.css">        <script type="text/javascript">window.__STATIC_DOMAIN = "https://static.oschina.net";</script>
+    <script src="https://static.oschina.net/new-osc/js/utils/jquery.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="https://static.oschina.net/new-osc/img/favicon.ico"/>
+    <link rel="alternate" type="application/rss+xml" title="最新开源项目" href="https://www.oschina.net/project/rss"/>
+    <link rel="alternate" type="application/rss+xml" title="最新开源资讯" href="https://www.oschina.net/news/rss"/>
+    <link rel="alternate" type="application/rss+xml" title="最新问题列表" href="https://www.oschina.net/question/rss"/>
+    <link rel="alternate" type="application/rss+xml" title="最新翻译列表" href="https://www.oschina.net/translate/rss"/>
+    <link rel="alternate" type="application/rss+xml" title="最新博客列表" href="https://www.oschina.net/blog/rss"/>
+    <link rel="alternate" type="application/rss+xml" title="推荐博客列表" href="https://www.oschina.net/blog/rss?show=more"/>
+    <link rel="alternate" type="application/rss+xml" title="推荐软件列表" href="https://www.oschina.net/project/rss?show=recomms"/>
+    <link rel="alternate" type="application/rss+xml" title="最新代码分享列表" href="https://www.oschina.net/code/rss"/>
+    <link rel="alternate" type="application/rss+xml" title="OSCHINA - 源码列表" href="https://www.oschina.net/code/source_rss"/>
+</head>
+<body class="page-web-index">
+<val data-name="space_user_url" data-value=""></val>      <val data-name="g_user_url" data-value=""></val>      <val data-name="api_prefix" data-value=""></val>      <val data-name="g_user_code" data-value=""></val>     <val data-name="g_user_id" data-value=""></val>     <val data-name="g_user" data-value=""></val>     <val data-name="login_page" data-value="https://www.oschina.net/home/login?goto_page=https%3A%2F%2Fwww.oschina.net%2F"></val>
+
+<val data-name="weixinAppId" data-value="wx880def15e694b905"></val>
+<val data-name="weixinTimestamp" data-value="1566484868497"></val>
+<val data-name="weixinNonceStr" data-value="a6a2932a-d38e-4363-ace1-b32365fa739c"></val>
+<val data-name="weixinSignature" data-value="8b15402bc2fc97b0077e4ef116d9a8476f464d7b"></val>
+<val data-name="weixinShareUrl" data-value="https://www.oschina.net/"></val>
+<val data-name="is_detail_page" data-value="false"></val>
+
+
+<div class="pusher">
+    <div class="ui secondary inverted fixed menu" id="headerNavMenu">
+        <div class="ui secondary text menu" id="menuList">
+            <a href="https://www.oschina.net" class="item home">首页</a>
+            <a href="https://www.oschina.net/project" class="item project">开源软件</a>
+            <a href="https://www.oschina.net/question" class="item question">问答</a>
+            <a href="https://www.oschina.net/tweets" class="item tweet">动弹</a>
+            <a href="https://www.oschina.net/blog" class="item blog">博客</a>
+            <a href="https://www.oschina.net/translate" class="item translate">翻译</a>
+            <a href="https://www.oschina.net/news" class="item news">资讯</a>
+            <a href="https://gitee.com/?from=osc-index" class="item" target="_blank">码云</a>
+            <a href="https://zb.oschina.net/projects/list.html" class="item" target="_blank">众包</a>
+            <a href="https://www.oschina.net/event" class="item event">活动</a>
+        </div>
+        <div class="ui dropdown item" id="moreMenu">
+            更多 <i class="dropdown icon"></i>
+            <div class="menu">
+                <a href="https://www.oschina.net/event/ych" class="item meetup"><i class="world icon"></i>源创会</a>
+                <a href="https://job.oschina.net/" class="item" target="_blank"><i class="address card outline icon"></i>求职/招聘</a>
+                <a href="https://www.oschina.net/question/topic/masteronline" class="item"><i class="spy icon"></i>高手问答</a>
+                <a href="https://www.oschina.net/question/topic/osc-interview" class="item"><i class="coffee icon"></i>开源访谈</a>
+                <a href="https://my.oschina.net/editorial-story" class="item"><i class="calendar outline icon"></i>周刊</a>
+                <a href="https://www.oschina.net/company" class="item"><i class="building outline icon"></i>公司开源导航页</a>
+            </div>
+        </div>
+        <div class="right menu">
+            <a class="item" href="https://www.oschina.net/home/go?page=admin%2Fpublish">投递新闻/软件</a>
+            <a class="item" href="https://www.oschina.net/home/login?goto_page=https%3A%2F%2Fwww.oschina.net%2F">登录</a>
+            <a class="item" href="https://www.oschina.net/home/reg?goto_page=https%3A%2F%2Fwww.oschina.net%2F">注册</a>
+        </div>
+    </div>
+    <div id="mainScreen">
+        <div class="home-container">
+
+
+            <x-foo-define data-define="web-index"></x-foo-define>
+            <div class="web-index">
+                <header class="main-header-wrapper">
+                    <div class="header-box wrapper box vertical">
+                        <div class="box vertical logo-wrap">
+                            <a href="https://www.oschina.net/" title="OSCHINA 社区">
+                                <img src="https://static.oschina.net/new-osc/img/logo_osc_new.svg" alt="OSCHINA 社区logo">
+                            </a>
+                        </div>
+
+                        <div class="box search-wrap">
+                            <div class="search-box">
+                                <form class="search-form box" action="https://www.oschina.net/search">
+                                    <input type='hidden' name='scope' value='project'/>
+                                    <i class="search-icon"></i>
+                                    <input type="text" class="search-text" placeholder="在 47914 款开源软件中搜索" name="q" required oninvalid="setCustomValidity('写点什么吧')" oninput="setCustomValidity('')" autofocus>
+                                    <button type="submit" class="search-btn">搜索</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="box vertical app-download">
+                            <a href="https://www.oschina.net/app" title="下载APP"><i class="mobile"></i>下载APP</a>
+                        </div>
+                    </div>
+                    <div class="nav-box wrapper box">
+                        <div class="nav-list-wrap box column">
+                            <div class="nav-list box">
+                                <div class="nav-item header"><a href="https://www.oschina.net/project" title="软件">软件</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/project/tags" title="软件分类">软件分类</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/project/zh" title="国产开源">国产开源</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/project/list?sort=time" title="最新收录">最新收录</a></div>
+                            </div>
+                            <div class="nav-list box">
+                                <div class="nav-item header"><a href="https://www.oschina.net/question" title="问答">问答</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/question?catalog=1" title="技术问答">技术问答</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/question/topics" title="主题广场">主题广场</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/question?catalog=100" title="职业生涯">职业生涯</a></div>
+                            </div>
+                        </div>
+                        <div class="nav-list-wrap box column">
+                            <div class="nav-list box">
+                                <div class="nav-item header"><a href="https://gitee.com/?from=osc-top" title="码云" target="_blank">码云</a></div>
+                                <div class="nav-item recommend"><a href="https://gitee.com/?from=osc-top" title="代码托管" target="_blank">代码托管 <span class="free-label">免费</span></a></div>
+                                <div class="nav-item"><a href="https://gitee.com/enterprises?from=osc-top" title="企业版" target="_blank">企业版</a></div>
+                                <div class="nav-item"><a href="https://gitee.com/education?from=osc-top" title="高校版" target="_blank">高校版</a></div>
+                            </div>
+                            <div class="nav-list box">
+                                <div class="nav-item header"><a href="https://zb.oschina.net" title="众包" target="_blank">众包</a></div>
+                                <div class="nav-item"><a href="https://zb.oschina.net/projects/list.html" title="项目大厅" target="_blank">项目大厅</a></div>
+                                <div class="nav-item"><a href="https://zb.oschina.net/services/quality_dev.html" title="服务商" target="_blank">服务商</a></div>
+                                <div class="nav-item"><a href="https://zb.oschina.net/services/excellent_dev.html" title="接活赚钱" target="_blank">接活赚钱</a></div>
+                            </div>
+                        </div>
+                        <div class="nav-list-wrap box column">
+                            <div class="nav-list box">
+                                <div class="nav-item header"><a href="https://www.oschina.net/blog" title="博客">博客</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/blog?tab=recommend" title="最新推荐">最新推荐</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/blog?tab=daily" title="每日一博">每日一博</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/blog/recommend" title="精彩博客">精彩博客</a></div>
+                            </div>
+                            <div class="nav-list box">
+                                <div class="nav-item header"><a href="https://www.oschina.net/news" title="资讯">资讯</a></div>
+                                <div class="nav-item recommend"><a href="https://www.oschina.net/feed" title="开源头条">开源头条</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/news/industry-news" title="行业资讯">行业资讯</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/news/project" title="软件更新">软件更新</a></div>
+                            </div>
+                        </div>
+                        <div class="nav-list-wrap box column">
+                            <div class="nav-list box">
+                                <div class="nav-item header"><a href="https://www.oschina.net/event" title="活动">活动</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/event/ych" title="源创会">源创会　</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/event?tab=latest&city=全国&time=all" title="线下活动">线下活动</a></div>
+                                <div class="nav-item recommend"><a href="https://www.oschina.net/shop" title="开源好物">开源好物</a></div>
+                            </div>
+                            <div class="nav-list box">
+                                <div class="nav-item"><a href="https://www.oschina.net/tweets" title="动弹">动弹</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/translate" title="协作翻译">协作翻译</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/question/topic/masteronline" title="高手问答">高手问答</a></div>
+                                <div class="nav-item"><a href="https://www.oschina.net/question/topic/osc-interview" title="开源访谈">开源访谈</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div name="index_banner_bigger"  data-trace-id="indexBigger"
+                     data-trace-ident="index_banner_bigger" >
+                    <style type="text/css">
+                        .banner_wrapper__ {
+                            position: relative;
+                            display: none;
+                            width: 100%;
+                            height: 300px;
+                            line-height: 300px;
+                            background: url("https://oscimg.oschina.net/oscnet/71b82083817dd74477b0cb521234616f22f.jpg") #2B208C no-repeat center center;
+                            background-size: auto 300px;
+                            cursor: pointer;
+                        }
+                        .banner_wrapper__ .banner_close {
+                            position: absolute;
+                            right: 10px;
+                            top: 10px;
+                            height: 25px;
+                            width: 25px;
+                            margin: auto;
+                            background: url("https://oscimg.oschina.net/oscnet/d5535775bce44b1e368e3c81e30c13a1fbd.jpg") no-repeat bottom right;
+                            background-size: contain;
+                            cursor: pointer;
+                        }
+                    </style>
+                    <section class="banner_wrapper__">
+                        <a href="javascript:;" class="banner_close"></a>
+                    </section>
+                    <!--<script src="https://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>-->
+                    <script src="https://www.oschina.net/uploads/js.cookie.min.js"></script>
+                    <script type="text/javascript">
+                        $(function () {
+                            var bannerEl = $('.banner_wrapper__');
+                            var cookieName = 'banner_osc_scr_0816';
+                            var bannerLink = 'http://clickc.admaster.com.cn/c/a132095,b3617880,c3159,i0,m101,8a1,8b3,h';
+                            function stopBubbling(e) {
+                                e = window.event || e;
+                                if (e.stopPropagation) {
+                                    e.stopPropagation();
+                                } else {
+                                    e.cancelBubble = true;
+                                }
+                            }
+                            function banner() {
+                                setTimeout(function () {
+                                    bannerEl.slideDown(500);
+                                    bannerEl.on('click', function () {
+                                        window.open(bannerLink);
+                                    });
+                                    bannerEl.find('a.banner_close').on('click', function (e) {
+                                        stopBubbling(e);
+                                        bannerEl.slideUp(500);
+                                        Cookies.set(cookieName, 1, {expires: 90, path: '/'});
+                                    });
+                                }, 800);
+                            }
+                            if (!Cookies.get(cookieName)) {
+                                banner();
+                            }
+                        });
+                    </script>
+
+                </div>
+
+                <section class="body-container">
+                    <div class="main-container">
+                        <section class="box justify news-container" id="v_news">
+                            <div class="col-of-news">
+                                <div class="box justify panel-header hide-border">
+                                    <a href="/news/industry" class="title fb" title="综合资讯">综合资讯</a>
+                                    <!-- Tab -->
+                                    <div class="box vertical">
+                                        <span class="diamond" :class="{'active': industryNewsTab == 1}" @mouseenter="setPageIndex('industryNewsTab', 1)"></span>
+                                        <span class="diamond" :class="{'active': industryNewsTab == 2}" @mouseenter="setPageIndex('industryNewsTab', 2)"></span>
+                                        <span class="diamond" :class="{'active': industryNewsTab == 3}" @mouseenter="setPageIndex('industryNewsTab', 3)"></span>
+                                        <a href="/news/industry" class="more" title="更多综合资讯">更多</a>
+                                    </div>
+                                </div>
+                                <div class="headline">
+                                    <!-- 第一条 -->
+                                    <div class="box vertical head-news">
+
+                                        <div class="news-content-wrap">
+                                            <a class="news-link" href="https://www.oschina.net/news/109179/hidden-cost-of-sharing-code-between-ios-and-android" target="_blank" title="Dropbox 抛弃 C++，跨平台真的是伪命题吗？">Dropbox 抛弃 C++，跨平台真的是伪命题吗？</a>
+                                            <p class="text-wrap news-content">跨平台这个十分符合程序员思维的方案，在实际操作中往往不能如其所愿，甚至会适得其反。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 第一页 -->
+                                <div class="page" v-show="industryNewsTab == 1">
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109269/danny-cohen-has-died" title="提出字节序概念的计算机科学家 Danny Cohen 逝世" target="_blank">提出字节序概念的计算机科学家 Danny Cohen 逝世</a>
+                                        <span class="box-fr news-date">08/22</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://my.oschina.net/crossoverjie/blog/3084960" title="每日一博 | 一次难得的分库分表实践" target="_blank">每日一博 | 一次难得的分库分表实践</a>
+                                        <span class="box-fr news-date">08/22</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109266" title="openPS——跨平台 photopea 桌面客户端" target="_blank">openPS——跨平台 photopea 桌面客户端</a>
+                                        <span class="box-fr news-date">08/22</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://gitee.com/hy-wux/DataService-Framework" title="码云推荐 | 大数据平台数据服务框架 DataService" target="_blank">码云推荐 | 大数据平台数据服务框架 DataService</a>
+                                        <span class="box-fr news-date">08/22</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109264/win-10-insider-preview-build-18963" title="Win 10 更新：记事本上架 MS Strore、内置 GPU 温度显示" target="_blank">Win 10 更新：记事本上架 MS Strore、内置 GPU 温度显示</a>
+                                        <span class="box-fr news-date">08/22</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109263/intel-unveils-first-ai-chip-springhill" title="英特尔推出其首款人工智能芯片，10 纳米工艺" target="_blank">英特尔推出其首款人工智能芯片，10 纳米工艺</a>
+                                        <span class="box-fr news-date">08/22</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109262/ibm-opensourced-power" title="IBM 宣布开源 Power，OpenPOWER 基金会加入 Linux 基金会" target="_blank">IBM 宣布开源 Power，OpenPOWER 基金会加入 Linux 基金会</a>
+                                        <span class="box-fr news-date">08/22</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://my.oschina.net/xxiaobian/blog/3095868" title="OSChina 周四乱弹 —— 当你简历注水但还是找到了工作" target="_blank">OSChina 周四乱弹 —— 当你简历注水但还是找到了工作</a>
+                                        <span class="box-fr news-date">08/22</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109235/twitter-opensources-rezolus" title="Twitter 开源高分辨率遥测工具 Rezolus，轻松捕获系统性能异常瞬间" target="_blank">Twitter 开源高分辨率遥测工具 Rezolus，轻松捕获系统性能异常瞬间</a>
+                                        <span class="box-fr news-date">08/21</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109234/5000-rmb-what-happened-to-flv-js" title="如何看待优秀国产开源项目作者月薪却不到 5000 元？" target="_blank">如何看待优秀国产开源项目作者月薪却不到 5000 元？</a>
+                                        <span class="box-fr news-date">08/21</span>
+                                    </div>
+                                </div>
+                                <!-- 第二页 -->
+                                <div class="page" v-show="industryNewsTab == 2" style="display: none">
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109233/microsoft-released-chromium-edge-beta" title="微软第一个测试版的 Chromium 的 Edge 浏览器已经上线" target="_blank">微软第一个测试版的 Chromium 的 Edge 浏览器已经上线</a>
+                                        <span class="box-fr news-date">08/21</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://my.oschina.net/xxiaobian/blog/3095306" title="OSChina 周三乱弹 —— 无他，唯眼熟尔" target="_blank">OSChina 周三乱弹 —— 无他，唯眼熟尔</a>
+                                        <span class="box-fr news-date">08/21</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109228/sunsetting-mercurial-support-in-bitbucket" title="Mercurial 黄昏，Bitbucket 宣布全面转向 Git" target="_blank">Mercurial 黄昏，Bitbucket 宣布全面转向 Git</a>
+                                        <span class="box-fr news-date">08/21</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109222" title="开源持续交付黑客松，欢迎你来挑战！" target="_blank">开源持续交付黑客松，欢迎你来挑战！</a>
+                                        <span class="box-fr news-date">08/22</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://my.oschina.net/editorial-story/blog/3094539" title="移动开发中的 Web：WebView、WebKit、JSCore、Web 优化、热修复、跨平台、Native、Hybrid……" target="_blank">移动开发中的 Web：WebView、WebKit、JSCore、Web 优化、热修复、跨平台、Native、Hybrid……</a>
+                                        <span class="box-fr news-date">08/20</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109206/microsoft-get-jclarity-to-support-azure-java" title="微软收购 jClarity，以提高 Azure 上 Java 工作负载的性能" target="_blank">微软收购 jClarity，以提高 Azure 上 Java 工作负载的性能</a>
+                                        <span class="box-fr news-date">08/20</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109205/crokage-a-new-way-to-search-stack-overflow" title="Stack Overflow 引入 CROKAGE，搜问题不用再东拼西凑" target="_blank">Stack Overflow 引入 CROKAGE，搜问题不用再东拼西凑</a>
+                                        <span class="box-fr news-date">08/20</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109203/gitee-huawei-cloud-containerops-devops" title="码云Gitee对接华为云ContainerOps实现 DevOps 自动化" target="_blank">码云Gitee对接华为云ContainerOps实现 DevOps 自动化</a>
+                                        <span class="box-fr news-date">08/20</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://my.oschina.net/xxiaobian/blog/3094770" title="OSChina 周二乱弹 —— 开发语言和语言开发的能一样么" target="_blank">OSChina 周二乱弹 —— 开发语言和语言开发的能一样么</a>
+                                        <span class="box-fr news-date">08/20</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/p/pulumi" title="Pulumi —— 架构即是代码" target="_blank">Pulumi —— 架构即是代码</a>
+                                        <span class="box-fr news-date">08/19</span>
+                                    </div>
+                                </div>
+                                <!-- 第三页 -->
+                                <div class="page" v-show="industryNewsTab == 3" style="display: none">
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://my.oschina.net/u/173343/blog/3090054" target="_blank" title="每日一博 | 啤酒节上尿意浓 - SVG 低级艺术展示">每日一博 | 啤酒节上尿意浓 - SVG 低级艺术展示</a>
+                                        <span class="box-fr news-date">08/19</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://gitee.com/hengk/ctpn" target="_blank" title="码云推荐 | 使用 TensorFlow 对文字检测网络的复现 ctpn">码云推荐 | 使用 TensorFlow 对文字检测网络的复现 ctpn</a>
+                                        <span class="box-fr news-date">08/19</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109180/improving-battery-life-by-avoiding-unnecessary-media-caching" target="_blank" title="微软对 Chrome 新贡献：降低功耗、改进续航">微软对 Chrome 新贡献：降低功耗、改进续航</a>
+                                        <span class="box-fr news-date">08/19</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109179/hidden-cost-of-sharing-code-between-ios-and-android" target="_blank" title="Dropbox 与 C++ 的“七年之痒”难跨越，跨平台真的是伪命题吗？">Dropbox 与 C++ 的“七年之痒”难跨越，跨平台真的是伪命题吗？</a>
+                                        <span class="box-fr news-date">08/19</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109178/asf-2019-annual-report" target="_blank" title="Apache 软件基金会代码库约有 1.9 亿行代码，价值 200 亿美元">Apache 软件基金会代码库约有 1.9 亿行代码，价值 200 亿美元</a>
+                                        <span class="box-fr news-date">08/19</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://my.oschina.net/xxiaobian/blog/3094250" target="_blank" title="OSChina 周一乱弹 —— 年迈渔夫遭黑帮袭抢">OSChina 周一乱弹 —— 年迈渔夫遭黑帮袭抢</a>
+                                        <span class="box-fr news-date">08/19</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/question/3820517_2310457" target="_blank" title="PHP 要出方言？Linux 低内存性能差？5 种未来最强语言没有 Rust/Golang？">PHP 要出方言？Linux 低内存性能差？5 种未来最强语言没有 Rust/Golang？</a>
+                                        <span class="box-fr news-date">08/18</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109165/wcos-is-preparing-for-the-next-generation-of-windows" target="_blank" title="Windows Core 操作系统正在为下一代微软设备作准备">Windows Core 操作系统正在为下一代微软设备作准备</a>
+                                        <span class="box-fr news-date">08/18</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://my.oschina.net/u/2359207/blog/3086501" target="_blank" title="深度解析 Flink 是如何管理好内存的">深度解析 Flink 是如何管理好内存的</a>
+                                        <span class="box-fr news-date">08/18</span>
+                                    </div>
+                                    <div class="box vertical news">
+                                        <a class="news-link primary  visited  " href="https://www.oschina.net/news/109163/google-opensources-live-transcribes-speech-engine" target="_blank" title="谷歌开源实时语音转录引擎 Live Transcribe Speech Engine">谷歌开源实时语音转录引擎 Live Transcribe Speech Engine</a>
+                                        <span class="box-fr news-date">08/18</span>
+                                    </div>
+                                </div>
+                            </div>                                <div class="col-of-news">
+                            <div class="box justify panel-header hide-border">
+                                <a href="/news/project" class="title fb" title="软件更新资讯">软件更新资讯</a>
+                                <!-- Tab -->
+                                <div class="box vertical">
+                                    <span class="diamond" :class="{'active': projectNewsTab == 1}" @mouseenter="setPageIndex('projectNewsTab', 1)"></span>
+                                    <span class="diamond" :class="{'active': projectNewsTab == 2}" @mouseenter="setPageIndex('projectNewsTab', 2)"></span>
+                                    <span class="diamond" :class="{'active': projectNewsTab == 3}" @mouseenter="setPageIndex('projectNewsTab', 3)"></span>
+                                    <a href="/news/project"  class="more" title="更多软件更新资讯">更多</a>
+                                </div>
+                            </div>
+                            <div class="headline">
+                                <!-- 第一条 -->
+                                <div class="box vertical head-news">
+
+                                    <div class="news-content-wrap">
+                                        <a class="news-link" href="https://www.oschina.net/news/109227/julia-1-2-0-released" target="_blank" title="Julia 1.2.0 发布，高性能动态高级编程语言">Julia 1.2.0 发布，高性能动态高级编程语言</a>
+                                        <p class="text-wrap news-content">Julia 1.2.0 发布了， Julia 是一个高性能动态高级编程语言。其拥有丰富的函数库，提供了数字精度、精致...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 第一页 -->
+                            <div class="page" v-show="projectNewsTab == 1">
+                                <div class="box vertical news">
+                                    <a class="news-link primary  " href="https://www.oschina.net/news/109261/kong-1-3-released" title="Kong 1.3 发布，原生 gRPC 代理、上游 TLS 交叉认证" target="_blank">Kong 1.3 发布，原生 gRPC 代理、上游 TLS 交叉认证</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  " href="https://www.oschina.net/news/109259/powershell-7-preview-3-released" title="PowerShell 7 Preview 3 发布" target="_blank">PowerShell 7 Preview 3 发布</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  " href="https://www.oschina.net/news/109258/graaivm-19-2-released" title="GraalVM 19.2 发布，高性能跨语言虚拟机" target="_blank">GraalVM 19.2 发布，高性能跨语言虚拟机</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109273/t-io-3-5-0-released" title="t-io 3.5.0 发布， 大学生也能驾驭的网络编程框架" target="_blank">t-io 3.5.0 发布， 大学生也能驾驭的网络编程框架</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109272/dnnmmp-updated" title="dnnmmp 开发者集成环境：增加 Yapi（最好用的接口管理工具）" target="_blank">dnnmmp 开发者集成环境：增加 Yapi（最好用的接口管理工具）</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109271/apijson-3-7-0-released" title="APIJSON 3.7.0 发布，Star 超 6666 支持 JFinal" target="_blank">APIJSON 3.7.0 发布，Star 超 6666 支持 JFinal</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109270/sonarqube-mybatis-1-0-2-released" title="SonarQube MyBatis 插件 1.0.2 发布，新增跳过扫描参数" target="_blank">SonarQube MyBatis 插件 1.0.2 发布，新增跳过扫描参数</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109267/redux-model-ts-5-4-0-released" title="Redux Model Ts 5.4.0 发布，Redux 的面向对象封装" target="_blank">Redux Model Ts 5.4.0 发布，Redux 的面向对象封装</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109257/rider-2019-2-1-released" title="Rider 2019.2.1 发布，跨平台 .NET IDE" target="_blank">Rider 2019.2.1 发布，跨平台 .NET IDE</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109256/ionic-4-8-0-released" title="Ionic 4.8.0 Oxygen 发布，混合移动应用前端框架" target="_blank">Ionic 4.8.0 Oxygen 发布，混合移动应用前端框架</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                            </div>
+                            <!-- 第二页 -->
+                            <div class="page" v-show="projectNewsTab == 2" style="display: none">
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109255/android-studio-3-5-released" title="Android Studio 3.5 稳定版发布，废弃 Instant Run" target="_blank">Android Studio 3.5 稳定版发布，废弃 Instant Run</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109254/vivaldi-2-7-released" title="Vivaldi 2.7 发布：静音网站、全局控制 Flash 和加载时显示状态信息等" target="_blank">Vivaldi 2.7 发布：静音网站、全局控制 Flash 和加载时显示状态信息等</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109253/metabase-0-33-0-released" title="Metabase 0.33.0 发布，公司团队数据分析工具" target="_blank">Metabase 0.33.0 发布，公司团队数据分析工具</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109252/cilium-1-6-released" title="Cilium 1.6 发布，基于 BPF 用于容器的关键网络技术" target="_blank">Cilium 1.6 发布，基于 BPF 用于容器的关键网络技术</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109251/copyq-3-9-1-released" title="CopyQ 3.9.1 发布，剪切板管理工具" target="_blank">CopyQ 3.9.1 发布，剪切板管理工具</a>
+                                    <span class="box-fr news-date">08/22</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109250/kube-ovn-v0-7-0-released" title="Kube-OVN v0.7.0 发布，IPAM、子网和安全功能增强" target="_blank">Kube-OVN v0.7.0 发布，IPAM、子网和安全功能增强</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109249/django-simpleui-2-7-released" title="simpleui 发布 2.7 版本，漂亮的 Django admin 主题 " target="_blank">simpleui 发布 2.7 版本，漂亮的 Django admin 主题 </a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109248/tinper-bee-2-1-6-released" title="企业级 React 组件库 tinper-bee 发布 2.1.6 版本" target="_blank">企业级 React 组件库 tinper-bee 发布 2.1.6 版本</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109246/hyperf-v1-0-12-released" title="Hyperf v1.0.12 发布，企业级的 PHP 微服务协程框架" target="_blank">Hyperf v1.0.12 发布，企业级的 PHP 微服务协程框架</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109245/smart-socket-1-4-4-beta-released" title="smart-socket v1.4.4 Bate 版发布，迟到的 UDP 通信" target="_blank">smart-socket v1.4.4 Bate 版发布，迟到的 UDP 通信</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                            </div>
+                            <!-- 第三页 -->
+                            <div class="page" v-show="projectNewsTab == 3" style="display: none">
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109244/thingsboard-ce-v2-4-0-released" target="_blank" title="ThingsBoard CE v2.4.0 发布">ThingsBoard CE v2.4.0 发布</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109242/onyx-0-14-5-released" target="_blank" title="onyx 0.14.5 发布，分布式计算框架">onyx 0.14.5 发布，分布式计算框架</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109241/spring-boot-plus-1-2-1-released" target="_blank" title="spring-boot-plus V1.2.1 发布，文件上传下载和静态资源访问">spring-boot-plus V1.2.1 发布，文件上传下载和静态资源访问</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109240/node-js-12-6-0-released" target="_blank" title="node.js 12.6.0 发布 （更新了V8到7.6）">node.js 12.6.0 发布 （更新了V8到7.6）</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109239/linkerd-2-5-released" target="_blank" title="Linkerd 2.5 发布，原生云应用开源服务网格">Linkerd 2.5 发布，原生云应用开源服务网格</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109231/njs-0-3-4-n-0-3-5-released" target="_blank" title="njs 0.3.4 与 0.3.5 发布，Nginx 的 JavaScript 脚本语言">njs 0.3.4 与 0.3.5 发布，Nginx 的 JavaScript 脚本语言</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109230/scrapydweb-1-4-0-released" target="_blank" title="ScrapydWeb 1.4.0 发布，用于 Scrapyd 集群管理的 web 应用">ScrapydWeb 1.4.0 发布，用于 Scrapyd 集群管理的 web 应用</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109229/nginx-1-16-1-n-1-17-3-released" target="_blank" title="nginx 1.16.1 稳定版和 nginx 1.17.3 主线版发布，修复安全问题">nginx 1.16.1 稳定版和 nginx 1.17.3 主线版发布，修复安全问题</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109227/julia-1-2-0-released" target="_blank" title="Julia 1.2.0 发布，高性能动态高级编程语言">Julia 1.2.0 发布，高性能动态高级编程语言</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                                <div class="box vertical news">
+                                    <a class="news-link primary  visited  " href="https://www.oschina.net/news/109226/rails-6-0-final-release" target="_blank" title="Rails 6.0 稳定版发布： 新增 Action Mailbox 和 Action Text 功能、支持多数据库、并行测试、默认使用 Webpacker 和 Zeitwerk">Rails 6.0 稳定版发布： 新增 Action Mailbox 和 Action Text 功能、支持多数据库、并行测试、默认使用 Webpacker 和 Zeitwerk</a>
+                                    <span class="box-fr news-date">08/21</span>
+                                </div>
+                            </div>
+                        </div>            </section>
+
+                        <div class="index-ad-wrap">
+                            <a name="index_banner_one"/>
+                            <a  data-trace-id="index01"
+                                data-trace-ident="index_banner_one"   href="http://clickc.admaster.com.cn/c/a131955,b3614736,c3159,i0,m101,8a1,8b2,h"
+                                target="_blank" title="华为">
+                                <img src="https://static.oschina.net/uploads/cooperation/index_banner_one_gTIBi.jpg" width="900" height="64">
+                            </a>
+                        </div>
+
+                        <section class="box soft-container">
+                            <div class="weekly-projects">
+                                <div class="box justify panel-header">
+                                    <a href="/project/weekly_projects" class="title fb" title="每周软件推荐">每周软件推荐</a>
+                                    <a href="/project/weekly_projects" class="more" title="更多软件推荐">更多</a>
+                                </div>
+                                <div class="box figures">
+                                    <div class="box-fl">
+                                        <a href="https://www.oschina.net/p/vvvebjs" class="soft-wrapper bigger" title="使用拖拽的方式生成网页 VvvebJs">
+                                            <figure class="figure">
+                                                <img class="figure-icon" src="https://static.oschina.net/uploads/space/2019/0818/192232_WD1h_3820517.png" alt="使用拖拽的方式生成网页 使用拖拽的方式生成网页">
+                                                <figcaption class="figure-title-wrap">
+                                                    <div class="figure-title fb big">使用拖拽的方式生成网页 VvvebJs</div>
+                                                </figcaption>
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="box justify wrap box-aw">
+                                        <a href="https://www.oschina.net/p/holoclean" class="soft-wrapper normal  mb " title="半自动数据修复框架 HoloClean">
+                                            <figure class="figure">
+                                                <img class="figure-icon" src="https://static.oschina.net/uploads/space/2019/0811/234954_2Ylu_2720166.png" alt="半自动数据修复框架 HoloClean">
+                                                <figcaption class="figure-title-wrap">
+                                                    <div class="figure-title fb">半自动数据修复框架 HoloClean</div>
+                                                </figcaption>
+                                            </figure>
+                                        </a>
+                                        <a href="https://www.oschina.net/p/civitas" class="soft-wrapper normal  mb " title="帝国建造网络游戏 Civitas">
+                                            <figure class="figure">
+                                                <img class="figure-icon" src="https://static.oschina.net/uploads/space/2019/0804/082949_IFJ8_2720166.png" alt="帝国建造网络游戏 Civitas">
+                                                <figcaption class="figure-title-wrap">
+                                                    <div class="figure-title fb">帝国建造网络游戏 Civitas</div>
+                                                </figcaption>
+                                            </figure>
+                                        </a>
+                                        <a href="https://www.oschina.net/p/vugu" class="soft-wrapper normal " title="Go 语言实现的现代 UI 库 Vugu">
+                                            <figure class="figure">
+                                                <img class="figure-icon" src="https://static.oschina.net/uploads/space/2019/0729/000027_q76y_2720166.png" alt="Go 语言实现的现代 UI 库 Vugu">
+                                                <figcaption class="figure-title-wrap">
+                                                    <div class="figure-title fb">Go 语言实现的现代 UI 库 Vugu</div>
+                                                </figcaption>
+                                            </figure>
+                                        </a>
+                                        <a href="https://www.oschina.net/p/yugabyte-db" class="soft-wrapper normal " title="云原生的分布式 SQL 数据库 YugaByte DB">
+                                            <figure class="figure">
+                                                <img class="figure-icon" src="https://static.oschina.net/uploads/img/201907/18085504_2NSG.png" alt="云原生的分布式 SQL 数据库 YugaByte DB">
+                                                <figcaption class="figure-title-wrap">
+                                                    <div class="figure-title fb">云原生的分布式 SQL 数据库 YugaByte DB</div>
+                                                </figcaption>
+                                            </figure>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>                                <div class="gitee-recommend">
+                            <div class="box justify panel-header">
+        <span class="box">
+            <a href="https://gitee.com/explore/recommend" title="码云最新推荐"><img class="icon-gitee" src="https://static.oschina.net/new-osc/img/icon_gitee.svg"></a>
+            <a href="https://gitee.com/explore/recommend" class="title fb" title="码云最新推荐">码云最新推荐</a>
+        </span>
+                                <a href="https://gitee.com/explore?from=osc_home" class="more" title="更多码云最新推荐">更多</a>
+                            </div>
+                            <div class="git-projects">
+
+                                <a class="git-project" href="https://gitee.com/ModelArts/ModelArts-Lab-gitee" title="ModelArts-Lab">
+                                    <div class="box">
+                                        <h1 class="git-name">ModelArts-Lab</h1>
+                                        <span class="git-lang">[Python]</span>
+                                    </div>
+                                    <p class="git-content text-wrap">华为云ModelArts官方的开发者案例库</p>
+                                </a>
+
+                                <a class="git-project" href="https://gitee.com/pineconepi/PineconePi_Pilot" title="PineconePi_Pilot">
+                                    <div class="box">
+                                        <h1 class="git-name">PineconePi_Pilot</h1>
+                                        <span class="git-lang">[C]</span>
+                                    </div>
+                                    <p class="git-content text-wrap">PineconePi Pilot(简称PPP）是由松果派开源硬件联合无人机爱好者一同开发的开源飞控程序。硬件基于松果派...</p>
+                                </a>
+
+                                <a class="git-project" href="https://gitee.com/xueshiqing/Muses" title="Muses">
+                                    <div class="box">
+                                        <h1 class="git-name">Muses</h1>
+                                        <span class="git-lang">[C]</span>
+                                    </div>
+                                    <p class="git-content text-wrap">运行时细粒度资源控制系统</p>
+                                </a>
+
+                                <a class="git-project" href="https://gitee.com/xueshiqing/hadoop-yarn-dag-service" title="hadoop-yarn-dag-service">
+                                    <div class="box">
+                                        <h1 class="git-name">hadoop-yarn-dag-service</h1>
+                                        <span class="git-lang">[Java]</span>
+                                    </div>
+                                    <p class="git-content text-wrap">基于hadoop-yarn的在离线混部资源管理系统</p>
+                                </a>
+
+                                <a class="git-project" href="https://gitee.com/xueshiqing/PiggyMetrics" title="PiggyMetrics">
+                                    <div class="box">
+                                        <h1 class="git-name">PiggyMetrics</h1>
+                                        <span class="git-lang">[Java]</span>
+                                    </div>
+                                    <p class="git-content text-wrap">多组件分布式应用行为追踪演示</p>
+                                </a>
+                            </div>
+                        </div>            </section>
+
+                        <section class="zb-container">
+                            <header class="box justify panel-header">
+                                <a href="https://zb.oschina.net" class="title fb" title="OSCHINA 众包">OSCHINA 众包</a>
+                                <div class="box vertical box-fr">
+                                    <a class="more icon" href="https://zb.oschina.net" target="_blank" title="进入众包平台"><img class="icon-goto" src="https://static.oschina.net/new-osc/img/zb/icon_goto.svg"> <span class="text">进入众包平台</span></a>
+                                </div>
+                            </header>
+                            <section class="box">
+                                <articel class="box-aw zb-projects">
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/project/detail.html?id=13578184" target="_blank" title="电竞自媒体app">
+                                            电竞自媒体app
+                                        </a>
+                                        <span class="box-fr yen">竞标报价</span>
+                                    </div>
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/project/detail.html?id=13578943" target="_blank" title="公司app直销商城开发">
+                                            公司app直销商城开发
+                                        </a>
+                                        <span class="box-fr yen">￥100,000</span>
+                                    </div>
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/project/detail.html?id=14578521" target="_blank" title="iOSApp超级签名系统开发">
+                                            iOSApp超级签名系统开发
+                                        </a>
+                                        <span class="box-fr yen">￥50,000</span>
+                                    </div>
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/project/detail.html?id=15579198" target="_blank" title="资讯聚合APP">
+                                            资讯聚合APP
+                                        </a>
+                                        <span class="box-fr yen">竞标报价</span>
+                                    </div>
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/project/detail.html?id=12579974" target="_blank" title="ins手机端群控">
+                                            ins手机端群控
+                                        </a>
+                                        <span class="box-fr yen">￥50,000</span>
+                                    </div>
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/project/detail.html?id=12577387" target="_blank" title="桌面应用软件">
+                                            桌面应用软件
+                                        </a>
+                                        <span class="box-fr yen">竞标报价</span>
+                                    </div>
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/project/detail.html?id=18577761" target="_blank" title="区块链防作弊的棋牌竞技游戏">
+                                            区块链防作弊的棋牌竞技游戏
+                                        </a>
+                                        <span class="box-fr yen">￥500,000</span>
+                                    </div>
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/project/detail.html?id=13577417" target="_blank" title="游戏过检测">
+                                            游戏过检测
+                                        </a>
+                                        <span class="box-fr yen">￥5,000</span>
+                                    </div>
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/project/detail.html?id=14576159" target="_blank" title="前端和后端的修改和二次开发">
+                                            前端和后端的修改和二次开发
+                                        </a>
+                                        <span class="box-fr yen">￥50,000</span>
+                                    </div>
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/project/detail.html?id=15576847" target="_blank" title="通讯APP">
+                                            通讯APP
+                                        </a>
+                                        <span class="box-fr yen">竞标报价</span>
+                                    </div>
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/reward/detail.html?id=14017865" target="_blank" title="使嵌入到HTML中的图片可以点击放大显示">
+                                            使嵌入到HTML中的图片可以点击放大显示
+                                        </a>
+                                        <span class="box-fr yen">￥300</span>
+                                    </div>
+                                    <div class="box vertical osc-link project-item">
+                                        <a class="link-content zb-width" href="https://zb.oschina.net/reward/detail.html?id=15017842" target="_blank" title="laravel 宝塔面板环境下启用https后路由冲突？导致多次重定向的解决">
+                                            laravel 宝塔面板环境下启用https后路由冲突？导致多次重定向的解决
+                                        </a>
+                                        <span class="box-fr yen">￥150</span>
+                                    </div>
+                                </articel>
+                                <aside class="box-fr zb-services">
+                                    <header class="box vertical justify nav">
+                                        <div class="box">
+                                            <img class="icon-zb-service" src="https://static.oschina.net/new-osc/img/zb/icon_zb_service.svg" alt="开源技术服务">
+                                            <div class="title">开源技术服务</div>
+                                        </div>
+                                        <a class="more" href='https://zb.oschina.net/projects/list.html' target="_blank" title="更多开源技术服务">更多</a>
+                                    </header>
+                                    <section class="box wrap justify">
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=H5应用" target="_blank" title="H5应用">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAkFBMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk//yc9CXAAAAL3RSTlMAp2BmnvnXx69Vy0UpBfW7mYZwSjoJ6d2BJRbw4dG/i1wxEbKWdU4uwpB8HGsfGhDy9jgAAAGDSURBVDjLzdPZjtNAEEDRsuP2vsWxE2ff94H7/39HRM8gTDUg8YDmPEXWjVxydcun0KZ5l/reOp2N6kiyNHls3GHC5Mk4BLZrsppHjDucEEaM2oom3/DyFix/FxqDLz0i4bRcca7La144X51cOUvAQgivF7Yn4CpaHnzpglYup076RopTNjnV94X8B33sORx7FUY4RSoMcApUOMZprMIGp0aFO+Dmj37ih2B2Ksz0QBGUmQr3QDV8NIPpXoXzEtJC5t6HIDYQzlW4WMHqIHsGbnrZ3RrKp3w1gzDuRKmAXIrEf5dsgVo0D2iHJxnGotVA9usKGhHnDsMoquKXY7WzD3ainYHleo3V22MyEc0H7j8Ohy9yHAw9nN2zvZ02ApOL1gIbkcNbsArrXWc3uBBx7/D7r4P9ylOYFaIdprBsPq58sd8a+0dtxkuZ9pfDIrmHBjuK5b5eqynvPGe4cV8tzb8ZBpZVJm7zJJhhmXB7ecofFO3jaJbeeS9/lY+qOJnLv/oGG6xLjw9U0McAAAAASUVORK5CYII=">
+                                                <div class="zb-service">H5应用</div>
+                                            </div>
+                                        </a>
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=WEB应用" target="_blank" title="WEB应用">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAARVBMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk//TTS/QAAAAFnRSTlMAzTvwNxt903Am7dnEoJKCdGdjXE4Gno6cRAAAAIdJREFUOMvt0kkOxCAMRFETg4HMo+9/1EZqRKcVxSiLDIv89VuVCu7MT9YqMWsnHyDVnK2mABUzlihUIrP6whmMEMwJahDTCRYyLF74wgvg8eOORguZMcFcZ8G2yruqDXDx1FHMNZxqHMU68st2spgw7jHY/2AvuYFXDfvO8V9uFxKqVUjwjD6vISB1TP5jXAAAAABJRU5ErkJggg==">
+                                                <div class="zb-service">WEB应用</div>
+                                            </div>
+                                        </a>
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=工具应用" target="_blank" title="工具应用">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAllBMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk//3sn5+AAAAMXRSTlMAur62UEMyJhQLBwT1qnxiWxvx4s/DK+2voJKKVUv6+d3WyaSbdzwhDueEczpwaDiVq/kQiAAAAZlJREFUOMvFlNmSgjAQRRsiyKIoi7gMiwyouM/9/58bQoEhgFW+ed5IHW53mgT6Nubl7LEpybhXtj/PDclTUTHTJO+AelF63QHwowMTEhTg1EuCFQCvPHaXH6hZUE9cOEAYAlHbnwfOkmSuYPQDz9UBrdvggfrkUCsT0xCIiaNwL202Yqwur33OwWgH6NMmM+h0aCrwi1a0VWxoC8/QgGebiOTZpCcKkcjc8OphnWnsUTObUFl5yHZCtJTK3FUDXgQlqUBj5hkq/qRvwaDwTJ2sX/S4UReLgdHWt3mezKuw6DNwqQz63oYGKIlBfW/m0BDDNrt105W6cVwaw5b2MaF3GKvPPOtTr9tfEr+vK/WnUeyOe/KcIzpgPn4RJW9J7hrIx/pT5Dyi4xojmbYi53FuHrAd5I3NRZ8BamzKpwH+uuc11eGHwov49TAZarrzW6IiE5l53ctpPbjK9l4+jgz3dnVBEndwdPHvYbz39JUnuHIxsJunk4/iGGU8b4DOP+ylvTSamN8QJwV7UJu5PfvFlMY5OaFFX+QfxQZcRefaLEwAAAAASUVORK5CYII=">
+                                                <div class="zb-service">工具应用</div>
+                                            </div>
+                                        </a>
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=培训咨询" target="_blank" title="培训咨询">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAjVBMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/81RmD6AAAALnRSTlMAUkyLLOLe1oJ8VyQE+vHrzL21saSWHgsIyI+GXEEbFMO6rGI7NtGcdmtGFxD0hzoWkwAAASFJREFUOMvt0tdygzAQQFEJ03sH0w0mrtn//7yAGGdAEuU5k/t8RsvugP4jmbp/flS7LNYUGHKi6ya7RjZ88rG5ohK9gUWKFnOYocrA9H0r6ZmhDfyaIvlV78cZNpJPBmFiLsFOViikKIdDRahXlQPuJg6zUz3YVg5cBrb3nZYv1FI7uzYOeeysjTO/vMXFK/rkdtRPh1EuM3eyM6MqvdljWDQi+cnAjPwHr151yGN5+cLjjhiNo/35izAmqXFdeF5RV9q0noCGJJeCpFZPTbLZB5odQGFSkOQ4ADMojkdKKEhFYJIB3NE+HOp0dADSZXyIGajyYclAketcE7HSZV1QI06pJi2Z0qGV3nogWxOy5ACnaL34eQ89121aTYjR3+0H/HRtx2DlgC8AAAAASUVORK5CYII=">
+                                                <div class="zb-service">培训咨询</div>
+                                            </div>
+                                        </a>
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=企业应用" target="_blank" title="企业应用">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAdVBMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8WEKRWAAAAJnRSTlMA4stNU0q0r6bTnVDu9yFZ8qIb18OrRM7Gi25COwjqkWHBjHo3JoHFHRsAAAERSURBVDjL1ZTZboMwEEVtTFyK7bhQoGxZuuX/P7F3LGUxlh3x0ij3YTSaOYw9FwF7rCRfqIuA76eF8giYLUERBY3We0OI2WttouDrSdbbeiRwRCIBxu5YIYrzoVViYoGYn9coEmDLduxI4BFJm1oG5mkCNRKTAH2tAWebX2U3MXDDPvwCc0KVF23h8AwJB/gtb1WuticEf5S4SnWXN0OzJwInJCWOlt4V9WVig+cGKg1IGoAvHsgjW/8jCB/Lqmyo1CDhIejZo6ikyJ4QjPgYgp6PHZU68jExsRe5OFDpgKRfu/UgrLViNHfB2TV3+i6oXHP79lwgD397PaJ1zd+bj6vKFprZF+LkmvVnlkn2UP0BJ8xbJUyke70AAAAASUVORK5CYII=">
+                                                <div class="zb-service">企业应用</div>
+                                            </div>
+                                        </a>
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=嵌入式应用" target="_blank" title="嵌入式应用">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAdVBMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8WEKRWAAAAJnRSTlMAy/mBeV4q5bSTbIXz6tWi39vHv1dECfWtjXJKIhjWpph1ZjRQNf+JIVQAAADnSURBVDjL7c7HbsMwFETRUQuLCtWLbcUtmf//xEQMkpX16H18FxwQOACJf5pTcTDlAMRVupM9pFfrp4o3mCNYvsHC4HEjF1iuUB1MIUEkA+75iEP2A6dnnp4A1FWa7Gcu30da1QBaSql3Py2ASIT9yU/0EM4fy1Mww+c4TL+Xt13YQ7PBEoLFgO37axaCzb0xR87Q4acNtMaVMrx1TKA7WMrwiCLHmacbBehdbdCRJWVo0bRoo5mUocKZqtRIQrCGJjVShiB7XCxyhmFssToGoaekCKWG8Q+WIlSVnxKAi6RU6cfhldgX5bpdIj+lUqQAAAAASUVORK5CYII=">
+                                                <div class="zb-service">嵌入式应用</div>
+                                            </div>
+                                        </a>
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=设计" target="_blank" title="设计">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAkFBMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk//yc9CXAAAAL3RSTlMAV0USA/IkHezHqaPl0mcrDdrWjXt2bWE+Fwn4xLq0XVEz3syXci8GwJ6ShX85rjDJ8d0AAAHkSURBVDjL3ZNntqJAEEaLnEUREMWc893/7oYWnHl9YAFz3vcDOMXtriy/VKObqxvmw5wJoWaownSI2+JHrK0fB2v8AXKG40rG6acDh73X5+K5TLlVRWcw4DS/K6umMfFFIo7egfuXG4k0Ryf6nYuY6sbDSqiNVBUAZlLFtXEkGWuk60DuxU2gG57igdk8rjd2dxJLL46Tp3ET/AbldEQpL1LhJG8CvbzeFvZWyaFwMKRskEm9ZycpRKJpQ7J4KusDtvJkNg9Xldgh2U50GdWRRu8MFeIU9d9et3nretFqNoKXbFRoK5V1X0UHygnn3N63HJ6MR0tu5Kk6ulgRLIawcfoltzLFd+UQXIa4xZWdHFvSbD6yuQzeZ6/Y16lELflqPjIZ9BtAXlDJGyVnJyHBQMbWksmNcnpXJVHyPVmzWvS4jKtf5nyKcm1JS/YcbD0NN4NiRm56nygOKCW5QygaeU8IphT58Xv/hFZPiUxtUSMmUuB20/G+dORJAqZ6aUKWcp5360glbvxp5WSVJ7ZoWhP83aqyeZ1rDPGXIs5LBy9N/8fttmzakTfSWE1s0vjWySVXW3GGdAqJtnZZH3otXBKEsP13dBf6PnDuFT0ATN1UrMHotzvzzZ7xbFjSU/mQ/1F/APAUQHhqgBfKAAAAAElFTkSuQmCC">
+                                                <div class="zb-service">设计</div>
+                                            </div>
+                                        </a>
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=微信应用" target="_blank" title="微信应用">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAk1BMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8ACuK4AAAAMHRSTlMAwFeS+8uYSjXt27Pjxp5oGA/3uawc56+IfXhsXDotIRQE89/W0aeAcWFTQQsHjGOgoIXVAAABcklEQVQ4y9WTV3KDMBRFL72ZEooNpti4d2v/q8voAQMGhclncn7QSEcS70rCXyCQX46rSXF2/8IcpnIMGceSsmRGi9gA1dtAzJmNUN8QUDtsio4pJyZCwZh1U4PeraspB/r6I2+z4707E9BpPAaSBU39rGir0PDxCRTUygFIgs1lmxFrBC419iZkRiyGydN+TbfFGsKFytTV2b/mAQZIbEqYbczitYqOkmI80KJNvSgo+2SXWau6gqh1NsQuSfTGnveczJX7qnsO24hNMCjH0exLczxNkTtnT7vzoILl0NNMi+oBUv694YtOKeWmPxQv1+4c6QqUwIGWpN9Uhju3FZ90lcJJtbZEjExDYkJcEDlrUQ1XLGogEqvruMVi0QHQ1BM6En+F77XQW/rdzViZQHCX/a0hFL2EvIprM7eEWY2HZ42eu0C8QkQ+8c4QU4y8C36i+kg9xgylt1d5/vbJpjc2Q10ZN6Oq8UhZgd9hyPgnfAO98YWcbKbH/wAAAABJRU5ErkJggg==">
+                                                <div class="zb-service">微信应用</div>
+                                            </div>
+                                        </a>
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=移动应用" target="_blank" title="移动应用">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAXVBMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/9vCGCKAAAAHnRSTlMA2dbey40IRSNfo+nlnS0ovadQPSAOxLeQfBT2MzKdt8GHAAAAkUlEQVQ4y+3UuxKCMBCF4U0EwYRwSxBBPe//mI6aJq7sWEiXr8lO5i+2WtpTO6hP/UjcdAZnWx469Pc61V1Q8FBhDaeUJ4tvIRmk7POT0TiWSBV0yGEOc/iP0CDVbITrOJgX597vshF2xFgx9HNJUSOGGqiEUCHEabnqIIY1RZO4o8NcRTcfB3b2hEP682nezwOXSjw/gdnn4gAAAABJRU5ErkJggg==">
+                                                <div class="zb-service">移动应用</div>
+                                            </div>
+                                        </a>
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=游戏开发" target="_blank" title="游戏开发">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAk1BMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8ACuK4AAAAMHRSTlMA4VsKy/Lp7L56IPjPxkEk3cK6oIFkUEYG1bWOdFVLKxoXppuXim0vEgGtlYg3Mwyb902wAAABbklEQVQ4y+WS2XqCMBBGh30REEEWwbK4L1Xz/k/XCYkkkdav1+254fuHQ5YZ4E9y2y/MankUhah2zcSbv3p5QChhznOZrWieVUfV+yRPqhPN7aANqi57BRHEy6ipLSKQdj9p5A2JELfkLePmc5a1JgqIimkNL0ouLll1DfCheh/gm+zJwEDxAHR1PeCVlHl3QrGtA0Bu2fL9AcAb3hnjzk7e+w8Aw+9vsTDTNpsRSgHI2eWLczwmObsLdpsw9oD4NK18MM74UQknl52klce1AKRhC4SBDlAEIe+9K9qGWD7GAw/qrZ2WHZ4ToVg/g9pHZ3shggOKm2cI/N4lP1CjmIxJNHHCBsWQ/IJEDPA94VTUYg2JbTIZ+0KpXB+lgZS9WnbFrcUIGJ2y5g4raynbHYxEspjTQc3E+Y4goQtvZfDfhXMXlmoWrJDyyUTwQqbxv2AsuJaTrA2Y0O1Dy6mKMRt6etU7+IZ5tt018H/5An86g7A1LPcHAAAAAElFTkSuQmCC">
+                                                <div class="zb-service">游戏开发</div>
+                                            </div>
+                                        </a>
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=桌面应用" target="_blank" title="桌面应用">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAkFBMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk//yc9CXAAAAL3RSTlMAOsujw9FtfQX04ZUcqPjws69jTRYO1M9yRzMD67qrilwtCubZm3dDKSS9noNVU2G9YOIAAAFgSURBVDjL5ZPZdoIwEIb/CFpkExBZRcV9qZ33f7tOBEq1Cae3Pf0u5iTDdwaGTPBfmV9HOgKBnsWK9DjoeachNr04plDoqMjoxYQi6MjI+15x0n2tKOoScIVw0fBGhkLkNJFAaRIl20HRYXEOa0+0W/xGtIlmw+ImSc0zSicZ3yyNqEQvxkIUXOoixOXrMAKVuCaiE8qUyG67zuxMJ+awxiwu0KESD03XOyK/E3Mn8CbuqzgPQ+/CHYTh2moSCUmWk0bUnvXmedpSytReQZKZ303biOyb8QNPwGMhrRHLwd7nUlRSWzPuvnSdHFfeGjpxarkc38B2LHg1ks2o8LdSPIKDWzRiRUoK+eo9zt4dAW89IFeLBkKOlYutnD77A8ApMFt2rWTzeoWaGD9dcnz91UErHrqrRc+JjnhGDcsYDyJZ7dH8M2vq6J7E0cqsjme8cPSnD/xphEHuI7PlhD/JJ6zKT3dgFrnJAAAAAElFTkSuQmCC">
+                                                <div class="zb-service">桌面应用</div>
+                                            </div>
+                                        </a>
+                                        <a class="zb-service-wrapper" href="https://zb.oschina.net/projects/list.html?r=" target="_blank" title="浏览更多">
+                                            <div class="zb-figure">
+                                                <img class="zb-figthumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAmVBMVEUAAAAgk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/8gk/963mrTAAAAMnRSTlMA5zDs9vHBqiMX2K6NeFo30cufkoV+bV9IPQ8K++HdvrmkdGhDGtXHtJlyTzopHggFYqO8uKwAAAFpSURBVDjLzZTXmsIgEIXBFBNNL6aaYnetO+//cBsSEHUVvPTcZID/IzBzBvRVmrVh9gk3hU5LOZcCUXWRgkkPqicpOOpBH8n103HKEX0gc7fJaWiMt8vnVSu5xQudTVYAsHgEQ9DON9BjGYVOk0fQBhizeMnWEg5yHQ8Y0z1/53SuJeAMPatowOkDZwBND6dWnbzOTEs+h/mVJFT1CvROblkZXU4gMpADARJJV0KNZHxczpBYFvSS+yemYCQDdQpOhVV2LMaBFiTmYKcTB4qFXaydYK7hiR0OXBnUijqx3DwAsNcM3ANgrOziNGetQOqZp5avKsOAn6s+cedihRe4ebCx620M3lw7dEnxiI6yjsP2y+JopFe9PRsf6qn7ulub3hdqgcTK1P6n1yqWgNuGOn4j5tyS3uIMK/GG7S23fi54nhTI7to7Ej0S7A5r4sqjAIzuwPfHjFXdZHHES/xfhr3ise6v0HfoD22yKro+cSL3AAAAAElFTkSuQmCC">
+                                                <div class="zb-service">浏览更多</div>
+                                            </div>
+                                        </a>
+                                    </section>
+                                </aside>
+                            </section>
+                        </section>
+
+                        <div class="index-ad-wrap">
+                            <a name="index_banner_two"/>
+                            <a  data-trace-id="index02"
+                                data-trace-ident="index_banner_two"   href="https://bbs.huaweicloud.com/forum/forum.php?mod=viewthread&tid=22466&page=1&extra=#pid71605"
+                                target="_blank" title="武汉">
+                                <img src="https://static.oschina.net/uploads/cooperation/index_banner_two_tOpjt.jpg" width="900" height="64">
+                            </a>
+                        </div>
+
+                        <section class="question-container">
+                            <header class="box justify panel-header">
+                                <a href="/question" class="title fb" title="技术问答">技术问答</a>
+                                <div class="box box-aw link-wrapper">
+                                    <a class="sub-link" href="/question?catalog=1" title="技术问答">技术问答</a>
