@@ -30,23 +30,23 @@ const options = {
     url: url,
 };
 
-axios.defaults.withCredentials = true;
 
 var instance = axios.create({
-    baseURL: 'https://www.oschina.net/',
+    baseURL: 'https://www.oschina.net',
     timeout: 1000,
-    headers: headers
+    headers: headers,
+    withCredentials: true,
 });
 
-instance.post("action/user/hash_login?from=", qs.stringify(datas)).then((response)=>{
+instance.post("/action/user/hash_login?from=", qs.stringify(datas)).then((response) => {
     console.log(response)
-    instance.get("", {
+    instance.get("/", {
         headers: {
             'User-Agent': `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36`,
             Cookie: response.headers['set-cookie'], //这里是登陆后得到的cookie,(重点)
         },
         withCredentials: true,
-    }).then((response)=>{
+    }).then((response) => {
 
         console.log('是否登陆成功：', response.data.indexOf('狂奔的蜗牛lj') > 0);
     })
