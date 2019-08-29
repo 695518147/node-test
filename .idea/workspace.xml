@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="434c2fe0-003a-46e2-b918-d7b38f9a6968" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor/lib/vue-ueditor-wrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor/src/components/vue-ueditor-wrap.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor/src/utils/Debounce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor/src/utils/Event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node-axios/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-axios/login.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,58 +26,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node-request/login.js">
+        <entry file="file://$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node-axios/login.js">
+        <entry file="file://$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node-axios/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="818" column="104" selection-start-line="818" selection-start-column="104" selection-end-line="818" selection-end-column="104" />
-              <folding>
-                <element signature="n#style#0;n#div#3;n#div#0;n#section#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#section#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#1;n#section#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#0;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#1;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#2;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#3;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#4;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#5;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#6;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#7;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#8;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#9;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#10;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#src#0;n#img#0;n#div#0;n#a#11;n#section#0;n#aside#0;n#section#0;n#section#2;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node-request/request.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="28">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -131,6 +102,8 @@
         <option value="$PROJECT_DIR$/node-request/login.js" />
         <option value="$PROJECT_DIR$/node-axios/index.html" />
         <option value="$PROJECT_DIR$/node-axios/login.js" />
+        <option value="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/index.html" />
+        <option value="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/src/App.vue" />
       </list>
     </option>
   </component>
@@ -155,7 +128,55 @@
             <path>
               <item name="node-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="node-test" type="462c0819:PsiDirectoryNode" />
-              <item name="node-axios" type="462c0819:PsiDirectoryNode" />
+              <item name="node-npm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-test" type="462c0819:PsiDirectoryNode" />
+              <item name="node-npm" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-ueditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-test" type="462c0819:PsiDirectoryNode" />
+              <item name="node-npm" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-ueditor" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-test" type="462c0819:PsiDirectoryNode" />
+              <item name="node-npm" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-ueditor" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-test" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-test" type="462c0819:PsiDirectoryNode" />
+              <item name="node-npm" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-ueditor" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-test" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="ueditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-test" type="462c0819:PsiDirectoryNode" />
+              <item name="node-npm" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-ueditor" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-test" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="ueditor" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-test" type="462c0819:PsiDirectoryNode" />
+              <item name="node-npm" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-ueditor" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="node-test" type="b2602c69:ProjectViewProjectNode" />
@@ -174,7 +195,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.8.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node-mysql/model/bean" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -183,15 +204,18 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/node-mysql/model/bean" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/node-mysql/model/bean" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/node-mysql/config/connection" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor" />
+      <recent name="$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public" />
+      <recent name="$PROJECT_DIR$/node-mysql/model/bean" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -245,6 +269,8 @@
       <workItem from="1566004059289" duration="96000" />
       <workItem from="1566004161725" duration="208000" />
       <workItem from="1566007721334" duration="42366000" />
+      <workItem from="1567010867854" duration="145000" />
+      <workItem from="1567084341258" duration="5252000" />
     </task>
     <task id="LOCAL-00001" summary="node_sequlize">
       <created>1566133946567</created>
@@ -288,20 +314,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566485169354</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="vue-ueditor-wrap">
+      <created>1567010976530</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567010976530</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42670000" />
+    <option name="totallyTimeSpent" value="48067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" weight="0.32939634" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32939634" />
@@ -311,8 +342,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32939634" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32939634" />
+      <window_info anchor="bottom" id="GraphQL" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -327,16 +360,11 @@
     <MESSAGE value="npm 包" />
     <MESSAGE value="qs" />
     <MESSAGE value="模拟登陆" />
-    <option name="LAST_COMMIT_MESSAGE" value="模拟登陆" />
+    <MESSAGE value="vue-ueditor-wrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue-ueditor-wrap" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node-mysql/controller/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node-mysql/controller/db.js" />
     <entry file="file://$PROJECT_DIR$/node-mysql/node_modules/sequelize/types/lib/data-types.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -394,13 +422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-mysql/model/foo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node-mysql/model/foo.js" />
     <entry file="file://$PROJECT_DIR$/常见库.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -709,19 +731,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-request/request.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/node-request/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node-axios/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="12270">
           <caret line="818" column="104" selection-start-line="818" selection-start-column="104" selection-end-line="818" selection-end-column="104" />
           <folding>
             <element signature="n#style#0;n#div#3;n#div#0;n#section#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -744,17 +763,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-request/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+    <entry file="file://$PROJECT_DIR$/node-request/request.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node-axios/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="165">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor/lib/vue-ueditor-wrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/public/ueditor/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-npm/node_modules/vue-ueditor-wrap/lib/vue-ueditor-wrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-npm/vue-ueditor/vue-test/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
